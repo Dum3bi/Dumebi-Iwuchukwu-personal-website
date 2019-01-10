@@ -633,15 +633,19 @@
 
         <div class="row contact__main">
             <div class="col-eight tab-full contact__form">
-                <form name="contactForm" id="contactForm" method="post" action="">
+                <form name="contact"  id="contactForm" method="POST" netlify-honeypot="bot-field" data-netlify="true">
                     <fieldset>
     
                     <div class="form-field">
-                        <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="" aria-required="true" class="full-width">
+                        <input type="text" name="name"  id="contactName" placeholder="Name" value="" minlength="2" required="" aria-required="true" class="full-width">
                     </div>
                     <div class="form-field">
-                        <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="" aria-required="true" class="full-width">
+                        <input input type="email" name="email"  id="contactEmail" placeholder="Email" value="" required="" aria-required="true" class="full-width">
                     </div>
+
+                    <p class="hidden">
+                   <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+                     </p>
                     <div class="form-field">
                         <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
                     </div>
