@@ -3,3 +3,7 @@
  X-XSS-Protection: 1; mode=block
  Referrer-Policy: no-referrer
  X-Content-Type-Options: nosniff
+ Age: 0
+ cache-control: max-age=360000, must-revalidate, public
+ Content-Language: en
+
