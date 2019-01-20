@@ -1,4 +1,4 @@
-/* =================================================================== 
+/* ===================================================================
  *
  *  Hola v1.0 Main Stylesheet
  *  10-02-2017
@@ -23,7 +23,7 @@
  *      ## alert box
  *      ## additional typo styles
  *      ## skillbars
- *  # common and reusable theme styles 
+ *  # common and reusable theme styles
  *      ## section intro
  *      ## blog-list
  *  # header styles
@@ -93,8 +93,8 @@ body {
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## links - (_document-setup.scss) 
+/* -------------------------------------------------------------------
+ * ## links - (_document-setup.scss)
  * ------------------------------------------------------------------- */
 
 a {
@@ -114,8 +114,8 @@ a:focus {
 
 
 /* ===================================================================
- * # typography & general theme styles - (_document-setup.scss) 
- * 
+ * # typography & general theme styles - (_document-setup.scss)
+ *
  * ------------------------------------------------------------------- */
 
 h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
@@ -336,8 +336,8 @@ hr {
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## Lists - (_document-setup.scss)  
+/* -------------------------------------------------------------------
+ * ## Lists - (_document-setup.scss)
  * ------------------------------------------------------------------- */
 
 ol {
@@ -394,7 +394,7 @@ dd {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## responsive video container - (_document-setup)
  * ------------------------------------------------------------------- */
 
@@ -405,9 +405,9 @@ dd {
     overflow: hidden;
 }
 
-.video-container iframe, 
-.video-container object, 
-.video-container embed, 
+.video-container iframe,
+.video-container object,
+.video-container embed,
 .video-container video {
     position: absolute;
     top: 0;
@@ -417,8 +417,8 @@ dd {
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## floated image - (_document-setup)  
+/* -------------------------------------------------------------------
+ * ## floated image - (_document-setup)
  * ------------------------------------------------------------------- */
 
 img.pull-right {
@@ -430,8 +430,8 @@ img.pull-left {
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## tables - (_document-setup.scss)  
+/* -------------------------------------------------------------------
+ * ## tables - (_document-setup.scss)
  * ------------------------------------------------------------------- */
 
 table {
@@ -470,8 +470,8 @@ th:last-child, td:last-child {
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## Spacing - (_document-setup.scss)  
+/* -------------------------------------------------------------------
+ * ## Spacing - (_document-setup.scss)
  * ------------------------------------------------------------------- */
 
 button, .btn {
@@ -482,25 +482,25 @@ fieldset {
     margin-bottom: 1.5rem;
 }
 
-input, 
-textarea, 
-select, 
-pre, 
-blockquote, 
-figure, 
-table, 
-p, 
-ul, 
-ol, 
-dl, 
-form, 
-.video-container, 
+input,
+textarea,
+select,
+pre,
+blockquote,
+figure,
+table,
+p,
+ul,
+ol,
+dl,
+form,
+.video-container,
 .ss-custom-select {
     margin-bottom: 3rem;
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## pace.js styles - minimal  - (_document-setup.scss)
  * ------------------------------------------------------------------- */
 
@@ -601,13 +601,13 @@ fieldset {
     border: none;
 }
 
-input[type="email"], 
-input[type="number"], 
-input[type="search"], 
-input[type="text"], 
-input[type="tel"], 
-input[type="url"], 
-input[type="password"], 
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
 textarea, select {
     display: block;
     height: 6rem;
@@ -685,13 +685,13 @@ textarea {
     min-height: 25rem;
 }
 
-input[type="email"]:focus, 
-input[type="number"]:focus, 
-input[type="search"]:focus, 
-input[type="text"]:focus, 
-input[type="tel"]:focus, 
-input[type="url"]:focus, 
-input[type="password"]:focus, 
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
 textarea:focus, select:focus {
     color: #000000;
     border-bottom: 2px solid black;
@@ -724,7 +724,7 @@ label > input[type="checkbox"], label > input[type="radio"] {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## style placeholder text - (_forms.scss)
  * ------------------------------------------------------------------- */
 
@@ -751,7 +751,7 @@ label > input[type="checkbox"], label > input[type="radio"] {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## Change Autocomplete styles in Chrome - (_forms.scss)
  * ------------------------------------------------------------------- */
 
@@ -767,9 +767,9 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
  *
  * ------------------------------------------------------------------- */
 
-.btn, button, 
-input[type="submit"], 
-input[type="reset"], 
+.btn, button,
+input[type="submit"],
+input[type="reset"],
 input[type="button"] {
     display: inline-block;
     font-family: "montserrat-semibold", sans-serif;
@@ -791,14 +791,14 @@ input[type="button"] {
     border: .3rem solid #c5c5c5;
 }
 
-.btn:hover, 
-button:hover, 
-input[type="submit"]:hover, 
-input[type="reset"]:hover, 
-input[type="button"]:hover, 
-.btn:focus, button:focus, 
-input[type="submit"]:focus, 
-input[type="reset"]:focus, 
+.btn:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.btn:focus, button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
 input[type="button"]:focus {
     background-color: #b8b8b8;
     border-color: #b8b8b8;
@@ -810,25 +810,25 @@ input[type="button"]:focus {
 /* button primary
  * ------------------------------------------------- */
 
-.btn.btn--primary, 
-button.btn--primary, 
-input[type="submit"].btn--primary, 
-input[type="reset"].btn--primary, 
+.btn.btn--primary,
+button.btn--primary,
+input[type="submit"].btn--primary,
+input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
     background: #0D0A0B;
     border-color: #0D0A0B;
     color: #FFFFFF;
 }
 
-.btn.btn--primary:hover, 
-button.btn--primary:hover, 
-input[type="submit"].btn--primary:hover, 
-input[type="reset"].btn--primary:hover, 
-input[type="button"].btn--primary:hover, 
-.btn.btn--primary:focus, 
-button.btn--primary:focus, 
-input[type="submit"].btn--primary:focus, 
-input[type="reset"].btn--primary:focus, 
+.btn.btn--primary:hover,
+button.btn--primary:hover,
+input[type="submit"].btn--primary:hover,
+input[type="reset"].btn--primary:hover,
+input[type="button"].btn--primary:hover,
+.btn.btn--primary:focus,
+button.btn--primary:focus,
+input[type="submit"].btn--primary:focus,
+input[type="reset"].btn--primary:focus,
 input[type="button"].btn--primary:focus {
     background: #449cff;
     border-color: #449cff;
@@ -877,13 +877,13 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 
 
-/* =================================================================== 
+/* ===================================================================
  * # additional components - (_others.scss)
  *
  * ------------------------------------------------------------------- */
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## alert box - (_alert-box.scss)
  * ------------------------------------------------------------------- */
 
@@ -929,12 +929,12 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## additional typo styles - (_additional-typo.scss)
  * ------------------------------------------------------------------- */
 
 
-/* drop cap 
+/* drop cap
  * ----------------------------------------------- */
 
 .drop-cap:first-letter {
@@ -950,7 +950,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 
-/* line definition style 
+/* line definition style
  * ----------------------------------------------- */
 
 .lining dt, .lining dd {
@@ -977,7 +977,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 
-/* dictionary definition style 
+/* dictionary definition style
  * ----------------------------------------------- */
 
 .dictionary-style dt {
@@ -1000,7 +1000,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 
-/** 
+/**
  * Pull Quotes
  * -----------
  * markup:
@@ -1047,7 +1047,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 
-/** 
+/**
  * Stats Tab
  * ---------
  * markup:
@@ -1099,7 +1099,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## skillbars - (_skillbars.scss)
  * ------------------------------------------------------------------- */
 
@@ -1257,7 +1257,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## section intro - (_common-styles.scss)
  * ------------------------------------------------------------------- */
 
@@ -1297,7 +1297,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * section-intro
  * ------------------------------------------------------------------- */
@@ -1330,7 +1330,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## blog-list - (_common-styles.scss)
  * ------------------------------------------------------------------- */
 
@@ -1387,8 +1387,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     color: #449cff;
 }
 
-.blog-list .blog-date a:hover, 
-.blog-list .blog-date a:focus, 
+.blog-list .blog-date a:hover,
+.blog-list .blog-date a:focus,
 .blog-list .blog-date a:active {
     color: #000000;
 }
@@ -1406,8 +1406,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     color: #000000;
 }
 
-.blog-list .blog-cat a:hover, 
-.blog-list .blog-cat a:focus, 
+.blog-list .blog-cat a:hover,
+.blog-list .blog-cat a:focus,
 .blog-list .blog-cat a:active {
     color: #449cff;
 }
@@ -1421,7 +1421,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * blog-list
  * ------------------------------------------------------------------- */
@@ -1504,7 +1504,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 
 /* -------------------------------------------------------------------
- * ## header logo - (_site-layout.css) 
+ * ## header logo - (_site-layout.css)
  * ------------------------------------------------------------------- */
 
 .header-logo {
@@ -1532,8 +1532,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## mobile menu toggle - (_site-layout.css) 
+/* -------------------------------------------------------------------
+ * ## mobile menu toggle - (_site-layout.css)
  * ------------------------------------------------------------------- */
 
 .header-menu-toggle {
@@ -1575,7 +1575,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     color: transparent;
 }
 
-.header-menu-toggle span::before, 
+.header-menu-toggle span::before,
 .header-menu-toggle span::after {
     content: '';
     width: 100%;
@@ -1605,7 +1605,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     transition: all 0.1s ease-in-out;
 }
 
-.header-menu-toggle.is-clicked span::before, 
+.header-menu-toggle.is-clicked span::before,
 .header-menu-toggle.is-clicked span::after {
     background-color: white;
 }
@@ -1625,8 +1625,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## navigation - (_site-layout.scss) 
+/* -------------------------------------------------------------------
+ * ## navigation - (_site-layout.scss)
  * ------------------------------------------------------------------- */
 
 .header-nav-wrap {
@@ -1664,7 +1664,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * header
  * ------------------------------------------------------------------- */
@@ -1759,8 +1759,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## home content - (_site-layout.scss) 
+/* -------------------------------------------------------------------
+ * ## home content - (_site-layout.scss)
  * ------------------------------------------------------------------- */
 
 .home-content {
@@ -1827,7 +1827,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     transition: all 0.5s ease-in-out;
 }
 
-.home-content__buttons .btn:hover, 
+.home-content__buttons .btn:hover,
 .home-content__buttons .btn:focus {
     background: #FFFFFF !important;
     color: #000000;
@@ -1874,8 +1874,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## home social - (_site-layout.scss) 
+/* -------------------------------------------------------------------
+ * ## home social - (_site-layout.scss)
  * ------------------------------------------------------------------- */
 
 .home-social {
@@ -1973,8 +1973,8 @@ html.no-csstransitions .home-content__main {
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## home animations - (_site-layout.scss) 
+/* -------------------------------------------------------------------
+ * ## home animations - (_site-layout.scss)
  * ------------------------------------------------------------------- */
 
 /* bounce */
@@ -2066,7 +2066,7 @@ html.no-csstransitions .home-content__main {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * home
  * ------------------------------------------------------------------- */
@@ -2216,8 +2216,8 @@ html.no-csstransitions .home-content__main {
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## timeline - (_site-layout.scss) 
+/* -------------------------------------------------------------------
+ * ## timeline - (_site-layout.scss)
  * ------------------------------------------------------------------- */
 
 .timeline {
@@ -2280,7 +2280,7 @@ html.no-csstransitions .home-content__main {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * about
  * ------------------------------------------------------------------- */
@@ -2360,7 +2360,7 @@ html.no-csstransitions .home-content__main {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## bricks/masonry - (_site-layout.scss)
  * ------------------------------------------------------------------- */
 
@@ -2553,7 +2553,7 @@ html.no-csstransitions .home-content__main {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * works
  * ------------------------------------------------------------------- */
@@ -2737,12 +2737,12 @@ html.no-csstransitions .home-content__main {
     color: transparent;
 }
 
-.testimonials__slider .slick-dots li button:hover, 
+.testimonials__slider .slick-dots li button:hover,
 .testimonials__slider .slick-dots li button:focus {
     outline: none;
 }
 
-.testimonials__slider .slick-dots li.slick-active button, 
+.testimonials__slider .slick-dots li.slick-active button,
 .testimonials__slider .slick-dots li:hover button {
     background: #375636;
 }
@@ -2792,7 +2792,7 @@ html.no-csstransitions .home-content__main {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * testimonials
  * ------------------------------------------------------------------- */
@@ -2990,7 +2990,7 @@ html.no-csstransitions .home-content__main {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * stats
  * ------------------------------------------------------------------- */
@@ -3125,11 +3125,11 @@ html.no-csstransitions .home-content__main {
     padding-right: 40px;
 }
 
-.contact__form input[type="email"], 
-.contact__form input[type="number"], 
-.contact__form input[type="text"], 
-.contact__form input[type="tel"], 
-.contact__form input[type="url"], 
+.contact__form input[type="email"],
+.contact__form input[type="number"],
+.contact__form input[type="text"],
+.contact__form input[type="tel"],
+.contact__form input[type="url"],
 .contact__form textarea {
     background-color: transparent;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -3137,11 +3137,11 @@ html.no-csstransitions .home-content__main {
     color: rgba(255, 255, 255, 0.75);
 }
 
-.contact__form input[type="email"]:focus, 
-.contact__form input[type="number"]:focus, 
-.contact__form input[type="text"]:focus, 
-.contact__form input[type="tel"]:focus, 
-.contact__form input[type="url"]:focus, 
+.contact__form input[type="email"]:focus,
+.contact__form input[type="number"]:focus,
+.contact__form input[type="text"]:focus,
+.contact__form input[type="tel"]:focus,
+.contact__form input[type="url"]:focus,
 .contact__form textarea:focus {
     color: white;
     border-bottom: 1px solid white;
@@ -3207,7 +3207,7 @@ html.no-csstransitions .home-content__main {
 }
 
 
-/* --------------------------------------------------------------- 
+/* ---------------------------------------------------------------
  * loader animation - (_site-layout.scss)
  * --------------------------------------------------------------- */
 
@@ -3268,7 +3268,7 @@ html.no-csstransitions .home-content__main {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * contact
  * ------------------------------------------------------------------- */
@@ -3399,7 +3399,7 @@ footer a:hover, footer a:focus {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## go to top
  * ------------------------------------------------------------------- */
 
@@ -3437,9 +3437,9 @@ footer a:hover, footer a:focus {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
- * footer 
+ * footer
  * ------------------------------------------------------------------- */
 
 @media only screen and (max-width: 600px) {
@@ -3670,7 +3670,7 @@ article.blog-single .blog-content {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * blog page header
  * ------------------------------------------------------------------- */
@@ -3753,8 +3753,13 @@ article.blog-single .blog-content {
 
 .blog-content__main img {
     max-width: 1000px;
-    margin: 3rem 0 3rem -6rem;
+    max-width: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
 }
+
 
 
 /* post tags
@@ -3808,7 +3813,7 @@ article.blog-single .blog-content {
     padding: 0 10px;
 }
 
-.blog-content__tags .blog-content__tag-list a:hover, 
+.blog-content__tags .blog-content__tag-list a:hover,
 .blog-content__tags .blog-content__tag-list a:focus {
     background-color: #0D0A0B;
     border-color: #0D0A0B;
@@ -3910,7 +3915,7 @@ article.blog-single .blog-content {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * blog content
  * ------------------------------------------------------------------- */
@@ -4115,7 +4120,7 @@ article.blog-single .blog-content {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * responsive:
  * comments
  * ------------------------------------------------------------------- */
