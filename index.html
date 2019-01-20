@@ -423,17 +423,60 @@
                 <p> The single greatest “people skill” is a highly developed & authentic interest in the *other* person. <br>Bob Burg <a href="https://twitter.com/BobBurg" target="_blank" rel="noopener">(@BobBurg)</a> October 7, 2014 </p>
             </div>
         </div>
-
         <div class="row contact__main">
             <div class="col-eight tab-full contact__form">
-                <h4 class="h06">Email</h4>
-                <p><a href="mailto:me@dum3bi.com" target="_blank">me@dum3bi.com.</a></p>
+                <form name="contactForm" id="contactForm" method="post" action="">
+                    <fieldset>
+
+                    <div class="form-field">
+                        <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="" aria-required="true" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="" aria-required="true" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
+                    </div>
+                    <div class="form-field">
+                        <button class="full-width btn--primary">Submit</button>
+                        <div class="submit-loader">
+                            <div class="text-loader">Sending...</div>
+                            <div class="s-loader">
+                                <div class="bounce1"></div>
+                                <div class="bounce2"></div>
+                                <div class="bounce3"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    </fieldset>
+                </form>
+
+                <!-- contact-warning -->
+                <div class="message-warning">
+                    Something went wrong. Please try again.
+                </div>
+
+                <!-- contact-success -->
+                <div class="message-success">
+                    Your message was sent, thank you!<br>
+                </div>
 
             </div>
+            <div class="col-four tab-full contact__infos">
+              <h4 class="h06">Phone</h4>
+              <p><a href="tel:234 9065 71 2102">234-9065-71-2102</a></p>
+
+              <h4 class="h06">Email</h4>
+              <p><a href="mailto:me@dum3bi.com" target="_blank">me@dum3bi.com.</a></p>
+            </div>
+
         </div>
 
     </section> <!-- end s-contact -->
-
 
     <!-- footer
     ================================================== -->
