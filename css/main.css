@@ -4142,3 +4142,66 @@ article.blog-single .blog-content {
         display: none;
     }
 }
+
+/* -------------------------------------------------------------------
+ * responsive:
+ * blog images
+ * ------------------------------------------------------------------- */
+
+ /* Masonry grid */
+ .responsive {
+   transition: all .5s ease-in-out;
+   column-gap: 30px;
+   column-fill: initial;
+ }
+
+ /* Masonry item */
+ .responsive .pic {
+   margin-bottom: 30px;
+   display: inline-block; /* Fix the misalignment of items */
+   vertical-align: top; /* Keep the item on the very top */
+ }
+
+ /* Masonry image effects */
+ .responsive .pic img {
+   width: 300px;
+   transition: all .5s ease-in-out;
+   backface-visibility: hidden; /* Remove Image flickering on hover */
+ }
+
+ .responsive .pic:hover img {
+   opacity: .75;
+ }
+
+
+
+ /* Gutterless masonry */
+ .responsive.gutterless {
+   column-gap: 0;
+ }
+
+ .responsive.gutterless .pic {
+   margin-bottom: 0;
+ }
+
+ /* Masonry on tablets */
+ @media only screen and (min-width: 768px) and (max-width: 1023px) {
+   .responsive {
+     column-count: 2;
+   }
+ }
+
+ /* Masonry on big screens */
+ @media only screen and (min-width: 1024px) {
+   .desc {
+     font-size: 1.25em;
+   }
+
+   .intro {
+     letter-spacing: 1px;
+   }
+
+   .responsive {
+     column-count: 3;
+   }
+ }
