@@ -4151,13 +4151,13 @@ article.blog-single .blog-content {
  /* Masonry grid */
  .responsive {
    transition: all .5s ease-in-out;
-   column-gap: 30px;
+   column-gap: 20px;
    column-fill: initial;
  }
 
  /* Masonry item */
  .responsive .pic {
-   margin-bottom: 30px;
+   margin-bottom: 20px;
    display: inline-block; /* Fix the misalignment of items */
    vertical-align: top; /* Keep the item on the very top */
  }
