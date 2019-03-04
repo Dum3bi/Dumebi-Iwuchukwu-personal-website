@@ -2463,18 +2463,17 @@ html.no-csstransitions .home-content__main {
 }
 
 .item-folio__title {
-    color: #FFFFFF;
+    color: #000000;
     font-family: "montserrat-semibold", sans-serif;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     text-transform: uppercase;
-    letter-spacing: .2rem;
     margin: 0;
 }
 
 .item-folio__cat {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(0, 0, 0, 0.7);
     font-family: "montserrat-regular", sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     margin-bottom: 0;
 }
 
@@ -2484,8 +2483,8 @@ html.no-csstransitions .home-content__main {
 
 .item-folio__project-link {
     display: block;
-    color: #FFFFFF;
-    box-shadow: 0 0 0 1px #FFFFFF;
+    color: #000000;
+    box-shadow: 0 0 0 1px #000000;
     border-radius: 50%;
     height: 4.2rem;
     width: 4.2rem;
@@ -2511,7 +2510,7 @@ html.no-csstransitions .home-content__main {
     content: "";
     height: 1px;
     width: 3rem;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(0, 0, 0, 0.1);
     position: absolute;
     top: 50%;
     left: -3rem;
