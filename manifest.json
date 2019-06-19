@@ -7,7 +7,7 @@
   "Scope": "/",
   "start_url": "https://dum3bi.com/",
   "description": "Portfolio Website of Dumebi Iwuchukwu",
-  "serviceworker": {"src": "./serviceworker.js" },
+  "serviceworker": {"src": "sw.js" },
   "icons": [
     {
       "src": "images/icons/icon-72x72.png",
