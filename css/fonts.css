@@ -11,7 +11,7 @@
 @font-face {
     font-family: "librebaskerville-regular";
     font-display: auto;
-    src: url("https://fonts.googleapis.com/css?family=Libre+Baskerville"),  url("../fonts/librebaskerville/librebaskerville-regular-webfont.woff2") format("woff2"), url("../fonts/librebaskerville/librebaskerville-regular-webfont.woff") format("woff");
+    src: url("../fonts/librebaskerville/librebaskerville-regular-webfont.woff2") format("woff2") , url("../fonts/librebaskerville/librebaskerville-regular-webfont.woff") format("woff");
     font-style: normal;
     font-weight: normal;
 }

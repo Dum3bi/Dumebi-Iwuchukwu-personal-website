@@ -54,6 +54,9 @@
     <script src="js/modernizr.js"></script>
     <script src="js/pace.min.js"></script>
 
+    <!-- PWA
+    ================================================== -->
+    <link rel="manifest" href="manifest.json">
     <!-- favicons
     ================================================== -->
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
@@ -470,6 +473,14 @@
 
     <!-- Java Script
     ================================================== -->
+    <script>
+if('serviceWorker' in navigator) {
+  navigator.serviceWorker
+           .register('sw.js')
+           .then(function() { console.log("Service Worker Registered"); });
+}
+</script>
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133301768-1"></script>
     <script>
