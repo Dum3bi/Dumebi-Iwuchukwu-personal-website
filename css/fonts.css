@@ -11,18 +11,11 @@
 @font-face {
     font-family: "librebaskerville-regular";
     font-display: auto;
-    src: url("../fonts/librebaskerville/librebaskerville-regular-webfont.woff2") format("woff2") , url("../fonts/librebaskerville/librebaskerville-regular-webfont.woff") format("woff");
+    src: url("../fonts/librebaskerville/librebaskerville-regular-webfont.woff2") format("woff2"), url("../fonts/librebaskerville/librebaskerville-regular-webfont.woff2") format("woff2") , url("../fonts/librebaskerville/librebaskerville-regular-webfont.woff") format("woff");
     font-style: normal;
     font-weight: normal;
 }
 
-@font-face {
-    font-family: "librebaskerville-italic";
-    font-display: auto;
-    src: url("../fonts/librebaskerville/librebaskerville-italic-webfont.woff2") format("woff2"), url("../fonts/librebaskerville/librebaskerville-italic-webfont.woff") format("woff");
-    font-style: normal;
-    font-weight: normal;
-}
 
 @font-face {
     font-family: "librebaskerville-bold";
