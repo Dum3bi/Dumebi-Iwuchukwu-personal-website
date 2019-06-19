@@ -5,7 +5,7 @@
   "background_color": "#000000",
   "display": "standalone",
   "Scope": "/",
-  "start_url": "https://www.dum3bi.com/",
+  "start_url": "https://dum3bi.com/",
   "description": "Portfolio Website of Dumebi Iwuchukwu",
   "serviceworker": {"src": "sw.js" },
   "icons": [

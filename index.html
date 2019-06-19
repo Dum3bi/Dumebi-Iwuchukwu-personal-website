@@ -57,6 +57,7 @@
     <!-- PWA
     ================================================== -->
     <link rel="manifest" href="manifest.json">
+
     <!-- favicons
     ================================================== -->
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
@@ -474,12 +475,12 @@
     <!-- Java Script
     ================================================== -->
     <script>
-if('serviceWorker' in navigator) {
-  navigator.serviceWorker
-           .register('sw.js')
-           .then(function() { console.log("Service Worker Registered"); });
-}
-</script>
+    if (!navigator.serviceWorker.controller) {
+     navigator.serviceWorker.register("/sw.js").then(function(reg) {
+         console.log("Service worker has been registered for scope: " + reg.scope);
+     });
+     }
+    </script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133301768-1"></script>

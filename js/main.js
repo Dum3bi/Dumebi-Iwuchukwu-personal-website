@@ -187,7 +187,7 @@
     };
 
 
-   
+
    /* Smooth Scrolling
     * ------------------------------------------------------ */
     var ssSmoothScroll = function() {
@@ -310,11 +310,8 @@
         ssPrettyPrint();
         ssMoveHeader();
         ssMobileMenu();
-        ssMasonryFolio();
-        ssPhotoswipe();
         ssSlickSlider();
         ssWaypoints();
-        ssStatCount();
         ssSmoothScroll();
         ssPlaceholder();
         ssAlertBoxes();
