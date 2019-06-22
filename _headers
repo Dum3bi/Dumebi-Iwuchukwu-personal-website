@@ -6,3 +6,4 @@
  Age: 0
  cache-control:  must-revalidate, public, max-age=31536000
  Content-Language: en
+ Content-type: text/html; charset=utf-8
