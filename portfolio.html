@@ -1,0 +1,54 @@
+---
+title: Portfolio
+order: 3
+layout: default
+---
+
+<!-- works
+================================================== -->
+
+<section id="works" class="s-works target-section">
+
+    <div class="row narrow section-intro has-bottom-sep">
+        <div class="col-full">
+            <h3>Portfolio</h3>
+            <h1>My Latest Projects.</h1>
+
+            <p class="lead">“You might see me with my hoody up, I ain't leaving 'til I finish.” <br>
+                                -NF</p>
+        </div>
+    </div>
+
+    <div class="row masonry-wrap">
+        <div class="masonry">
+
+            <div class="masonry__brick">
+                <div class="item-folio">
+                    {% for item in site.portfolio %}
+                    <div class="item-folio__thumb">
+                        <img src="{{ item.image_path }}" alt="{{ item.project_name }}" class="lazyload">
+                    </div>
+
+                    <div class="item-folio__text">
+                        <h3 class="item-folio__title">
+                            {{ item.project_name }}
+                        </h3>
+                        <p class="item-folio__cat">
+                          {{ item.category }}
+                        </p>
+                    </div>
+
+                    <a href="{{ item.link }}" class="item-folio__project-link" title="Project link">
+                        <i class="im im-link"></i>
+                    </a>
+                   {% endfor %}
+
+                </div> <!-- end item-folio -->
+            </div> <!-- end masonry__brick -->
+
+
+
+        </div>
+    </div> <!-- end masonry -->
+
+</section> <!-- end works -->
