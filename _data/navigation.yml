@@ -1,0 +1,14 @@
+- title: Home
+  url: index.html
+
+- title: About
+  url: about.html
+
+- title: Works
+  url: Portfolio.html
+
+- title: Blog
+  url: blog.md
+
+- title: Contact
+  url: contact.html
