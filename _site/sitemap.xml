@@ -4,56 +4,49 @@
     
     <url>
         <loc>/about.html</loc>
-        <lastmod>2019-07-14</lastmod>
+        <lastmod>2019-07-20</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
         <loc>/blog.html</loc>
-        <lastmod>2019-07-14</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
-        <loc>/blog.html</loc>
-        <lastmod>2019-07-14</lastmod>
+        <lastmod>2019-07-20</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
         <loc>/contact.html</loc>
-        <lastmod>2019-07-14</lastmod>
+        <lastmod>2019-07-20</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
         <loc>/</loc>
-        <lastmod>2019-07-14</lastmod>
+        <lastmod>2019-07-20</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
         <loc>/offline.html</loc>
-        <lastmod>2019-07-14</lastmod>
+        <lastmod>2019-07-20</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
         <loc>/portfolio.html</loc>
-        <lastmod>2019-07-14</lastmod>
+        <lastmod>2019-07-20</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
         <loc>/sitemap.xml</loc>
-        <lastmod>2019-07-14</lastmod>
+        <lastmod>2019-07-20</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
@@ -62,7 +55,7 @@
     
     <url>
         <loc>/2019/06/29/my-first-post.html</loc>
-        <lastmod>2019-07-14</lastmod>
+        <lastmod>2019-07-20</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>

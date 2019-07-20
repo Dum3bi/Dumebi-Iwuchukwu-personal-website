@@ -1,8 +1,7 @@
 ---
-title: Portfolio
-order: 3
-layout: portfolio
+layout: default
 ---
+
 
 <!-- works
 ================================================== -->
@@ -24,29 +23,29 @@ layout: portfolio
 
             <div class="masonry__brick">
                 <div class="item-folio">
-                    {% for item in site.portfolio %}
+
                     <div class="item-folio__thumb">
-                        <img src="{{ item.image_path }}" alt="{{ item.project_name }}" class="lazyload">
+                        <img src="images\portfolio\gallery\cap-front.jpg" alt="dentiti baseball cap" class="lazyload">
                     </div>
 
                     <div class="item-folio__text">
                         <h3 class="item-folio__title">
-                            {{ item.project_name }}
+                            D3ntiti
                         </h3>
                         <p class="item-folio__cat">
-                          {{ item.category }}
+                            Brand Identity, Apparel and Marketing Design
                         </p>
                     </div>
 
-                    <a href="{{ item.link }}" class="item-folio__project-link" title="Project link">
+                    <a href="#0" class="item-folio__project-link" title="Project link">
                         <i class="im im-link"></i>
                     </a>
-                   {% endfor %}
+
 
                 </div> <!-- end item-folio -->
             </div> <!-- end masonry__brick -->
 
-
+          
 
         </div>
     </div> <!-- end masonry -->
