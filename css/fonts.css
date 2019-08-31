@@ -5,28 +5,6 @@
 
 
 /*
- * libre baskerville
-================================================================================ */
-
-@font-face {
-    font-family: "librebaskerville-regular";
-    font-display: auto;
-    src: url("../fonts/librebaskerville/librebaskerville-regular-webfont.woff2") format("woff2"), url("../fonts/librebaskerville/librebaskerville-regular-webfont.woff2") format("woff2") , url("../fonts/librebaskerville/librebaskerville-regular-webfont.woff") format("woff");
-    font-style: normal;
-    font-weight: normal;
-}
-
-
-@font-face {
-    font-family: "librebaskerville-bold";
-    font-display: auto;
-    src: url("../fonts/librebaskerville/librebaskerville-bold-webfont.woff2") format("woff2"), url("../fonts/librebaskerville/librebaskerville-bold-webfont.woff") format("woff");
-    font-style: normal;
-    font-weight: normal;
-}
-
-
-/*
  * montserrat
 ================================================================================ */
 
