@@ -1,0 +1,5 @@
+User-agent: *
+Disallow:
+Disallow: /cgi-bin/
+Disallow: /404
+Sitemap: https://www.dum3bi.com/sitemap.xml
