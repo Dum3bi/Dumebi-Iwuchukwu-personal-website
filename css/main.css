@@ -87,7 +87,7 @@ body {
     font-family: "montserrat-regular", serif;
     font-size: 1.6rem;
     line-height: 1.875;
-    color: #9b9b9b;
+    color: #d4d4d4;
     margin: 0;
     padding: 0;
 }
@@ -120,7 +120,7 @@ a:focus {
 
 h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
     font-family: "montserrat-medium", sans-serif;
-    color: #9b9b9b;
+    color: #d4d4d4;
     font-style: normal;
     font-weight: normal;
     text-rendering: optimizeLegibility;
@@ -200,7 +200,7 @@ p.lead {
     font-size: 2rem;
     line-height: 1.8;
     margin-bottom: 3.6rem;
-    color: #9b9b9b;
+    color: #d4d4d4;
 }
 
 @media only screen and (max-width: 800px) {
@@ -240,7 +240,7 @@ blockquote:before {
     font-size: 10rem;
     line-height: 0px;
     margin: 0;
-    color: #9b9b9b;
+    color: #d4d4d4;
     font-family: arial, sans-serif;
     position: absolute;
     top: 3.6rem;
@@ -252,7 +252,7 @@ blockquote p {
     padding: 0;
     font-size: 2.1rem;
     line-height: 1.857;
-    color: #9b9b9b;
+    color: #d4d4d4;
 }
 
 blockquote cite {
@@ -448,7 +448,7 @@ th, td {
 }
 
 th {
-    color: #9b9b9b;
+    color: #d4d4d4;
     font-family: "montserrat-bold", sans-serif;
 }
 
@@ -946,7 +946,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     line-height: 6rem;
     text-indent: 0;
     background: transparent;
-    color: #9b9b9b;
+    color: #d4d4d4;
 }
 
 
