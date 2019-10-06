@@ -268,7 +268,7 @@ blockquote cite:before {
 }
 
 blockquote cite a, blockquote cite a:visited {
-    color: #6c6c6c;
+    color: #ffffff;
     border: none;
 }
 
@@ -277,7 +277,7 @@ abbr {
     font-variant: small-caps;
     text-transform: lowercase;
     letter-spacing: .05rem;
-    color: #6c6c6c;
+    color: #ffffff;
 }
 
 var, kbd, samp, code, pre {
@@ -499,6 +499,33 @@ form,
     margin-bottom: 3rem;
 }
 
+/**
+ * block grid paddings - (_document-setup.scss)
+ * -------------------------------------------------------------------
+ */
+.bgrid {
+	padding: 0 20px;
+}
+@media only screen and (max-width:1024px) {
+	.bgrid {
+		padding: 0 18px;
+	}
+}
+@media only screen and (max-width:768px) {
+	.bgrid {
+		padding: 0 15px;
+	}
+}
+@media only screen and (max-width:600px) {
+	.bgrid {
+		padding: 0 10px;
+	}
+}
+@media only screen and (max-width:400px) {
+	.bgrid {
+		padding: 0;
+	}
+}
 
 /* -------------------------------------------------------------------
  * ## pace.js styles - minimal  - (_document-setup.scss)
@@ -729,25 +756,25 @@ label > input[type="checkbox"], label > input[type="radio"] {
  * ------------------------------------------------------------------- */
 
 ::-webkit-input-placeholder {
-    color: #6c6c6c;
+    color: #ffffff;
 }
 
 :-moz-placeholder {
-    color: #6c6c6c;
+    color: #ffffff;
     /* Firefox 18- */
 }
 
 ::-moz-placeholder {
-    color: #6c6c6c;
+    color: #ffffff;
     /* Firefox 19+ */
 }
 
 :-ms-input-placeholder {
-    color: #6c6c6c;
+    color: #ffffff;
 }
 
 .placeholder {
-    color: #6c6c6c !important;
+    color: #ffffff !important;
 }
 
 
@@ -1095,7 +1122,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     margin: .6rem 0 0 0;
     font-size: 1.4rem;
     font-family: "montserrat-regular", sans-serif;
-    color: #6c6c6c;
+    color: #ffffff;
 }
 
 
@@ -1752,6 +1779,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     height: 100%;
     opacity: .5;
     background-color: #111111;
+    background-image: linear-gradient(#1d0000, #000000);
 }
 
 .no-js .s-home {
@@ -2346,266 +2374,235 @@ html.no-csstransitions .home-content__main {
 }
 
 
-
-/* ===================================================================
- * # works - (_site-layout.scss)
+/**
+ * ===================================================================
+ * 13. portfolio - (_layout.scss)
  *
- * ------------------------------------------------------------------- */
-
-.s-works {
-    padding-top: 15rem;
-    padding-bottom: 15.6rem;
-    background-color: #000000;
-    position: relative;
+ * -------------------------------------------------------------------
+ */
+#portfolio {
+	background: #030303;
+  background-image: linear-gradient(#000000, 0e0000);
+	padding-top: 12rem;
+	padding-bottom: 12rem;
+}
+#portfolio .folio-item {
+	padding: 0;
+	position: relative;
+	overflow: hidden;
+}
+#portfolio .folio-item img {
+	vertical-align: middle;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
 }
 
-
-/* -------------------------------------------------------------------
- * ## bricks/masonry - (_site-layout.scss)
- * ------------------------------------------------------------------- */
-
-.masonry-wrap {
-    margin-top: 4.8rem;
-    max-width: none;
-    width: 1600px;
+#portfolio .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: transparent;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
 }
 
-.masonry:after {
-    content: "";
-    display: table;
-    clear: both;
+#portfolio .folio-item-table {
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+#portfolio .folio-item-cell {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+	position: relative;
+	left: -100%;
 }
 
-.masonry .grid-sizer, .masonry__brick {
-    width: 400px;
+#portfolio .folio-title {
+	color: #FFFFFF;
+	font-size: 3.3rem;
+	padding: 0 3rem;
+	margin-bottom: 0;
+}
+#portfolio .folio-types {
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	font-family: "poppins-regular", sans-serif;
+	font-size: 1.2rem;
+	letter-spacing: .1rem;
+	color: rgba(255, 255, 255, 0.6);
+}
+#portfolio .folio-item:hover .overlay {
+	background: rgba(0, 0, 0, 0.8);
+}
+#portfolio .folio-item:hover .folio-item-cell {
+	left: 0;
+}
+#portfolio .folio-item:hover img {
+	-webkit-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	transform: scale(1.05);
 }
 
-.masonry__brick {
-    float: left;
-    padding: 0;
-}
-
-.item-folio {
-    position: relative;
-    overflow: hidden;
-}
-
-.item-folio__thumb img {
-    vertical-align: top;
-    -webkit-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
-}
-
-.item-folio__thumb .shadow-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: .8;
-    background: -moz-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
-    background: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
-    background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#cc000000', GradientType=0);
-}
-
-.item-folio__thumb a {
-    display: block;
-}
-
-.item-folio__thumb a::before {
-    display: block;
-    background-color: rgba(0, 0, 0, 0.8);
-    content: "";
-    opacity: 0;
-    visibility: hidden;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    -webkit-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
-    z-index: 1;
-}
-
-.item-folio__thumb a::after {
-    content: "...";
-    font-family: georgia, serif;
-    font-size: 3rem;
-    display: block;
-    height: 30px;
-    width: 30px;
-    line-height: 30px;
-    margin-left: -15px;
-    margin-top: -15px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    text-align: center;
-    color: #FFFFFF;
-    opacity: 0;
-    visibility: hidden;
-    -webkit-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
-    -webkit-transform: scale(0.5);
-    -ms-transform: scale(0.5);
-    transform: scale(0.5);
-    z-index: 1;
-}
-
-.item-folio__text {
-    position: absolute;
-    left: 0;
-    bottom: 3rem;
-    padding: 0 3rem;
-    z-index: 2;
-}
-
-.item-folio__title {
-    color: #000000;
-    font-family: "montserrat-semibold", sans-serif;
-    font-size: 1.2rem;
-    text-transform: uppercase;
-    margin: 0;
-}
-
-.item-folio__cat {
-    color: rgba(0, 0, 0, 0.7);
-    font-family: "montserrat-regular", sans-serif;
-    font-size: 1.1rem;
-    margin-bottom: 0;
-}
-
-.item-folio__caption {
-    display: none;
-}
-
-.item-folio__project-link {
-    display: block;
-    color: #000000;
-    box-shadow: 0 0 0 1px #000000;
-    border-radius: 50%;
-    height: 4.2rem;
-    width: 4.2rem;
-    text-align: center;
-    z-index: 500;
-    position: absolute;
-    top: 3rem;
-    left: 3rem;
-    opacity: 0;
-    visibility: hidden;
-    -webkit-transform: translate3d(-100%, 0, 0);
-    -ms-transform: translate3d(-100%, 0, 0);
-    transform: translate3d(-100%, 0, 0);
-}
-
-.item-folio__project-link i {
-    font-size: 1.8rem;
-    line-height: 4.2rem;
-}
-
-.item-folio__project-link::before {
-    display: block;
-    content: "";
-    height: 1px;
-    width: 3rem;
-    background-color: rgba(0, 0, 0, 0.1);
-    position: absolute;
-    top: 50%;
-    left: -3rem;
-}
-
-.item-folio__project-link:hover, .item-folio__project-link:focus, .item-folio__project-link:active {
-    background-color: #FFFFFF;
-    color: #000000;
-}
-
-
-/* on hover */
-
-.item-folio:hover .item-folio__thumb a::before {
-    opacity: 1;
-    visibility: visible;
-}
-
-.item-folio:hover .item-folio__thumb a::after {
-    opacity: 1;
-    visibility: visible;
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-}
-
-.item-folio:hover .item-folio__thumb img {
-    -webkit-transform: scale(1.05);
-    -ms-transform: scale(1.05);
-    transform: scale(1.05);
-}
-
-.item-folio:hover .item-folio__project-link {
-    opacity: 1;
-    visibility: visible;
-    -webkit-transform: translate3d(0, 0, 0);
-    -ms-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-}
-
-
-/* -------------------------------------------------------------------
+/**
  * responsive:
- * works
- * ------------------------------------------------------------------- */
-
-@media only screen and (max-width: 1700px) {
-    .masonry-wrap {
-        width: 1400px;
-    }
-    .masonry .grid-sizer, .masonry__brick {
-        width: 350px;
-    }
+ * portfolio
+ * -------------------------------------------------------------------
+ */
+@media only screen and (max-width:1024px) {
+	#portfolio .folio-title {
+		font-size: 3.1rem;
+	}
+}
+@media only screen and (max-width:768px) {
+	#portfolio .folio-title {
+		font-size: 2.5rem;
+	}
+}
+@media only screen and (max-width:400px) {
+	#portfolio .folio-title {
+		font-size: 2.2rem;
+	}
 }
 
-@media only screen and (max-width: 1500px) {
-    .masonry-wrap {
-        width: 1200px;
-    }
-    .masonry .grid-sizer, .masonry__brick {
-        width: 400px;
-    }
+/**
+ * Popup Modal - (_layout.scss)
+ * ------------------------------------------------------------------
+ */
+.popup-modal {
+	max-width: 550px;
+	background: #FFFFFF;
+	position: relative;
+	margin: 0 auto;
+}
+.popup-modal .media {
+	position: relative;
+}
+.popup-modal img {
+	vertical-align: bottom;
+}
+.popup-modal .description-box {
+	padding: 1.8rem 3.6rem 3rem;
+}
+.popup-modal .description-box h4 {
+	font-family: "poppins-bold", sans-serif;
+	font-size: 1.5rem;
+	line-height: 2.4rem;
+	margin-bottom: .6rem;
+}
+.popup-modal .description-box p {
+	font-family: "poppins-regular", sans-serif;
+	font-size: 1.4rem;
+	line-height: 2.4rem;
+	margin-bottom: 12px;
+}
+.popup-modal .categories {
+	font-family: "poppins-bold", sans-serif;
+	font-size: 1.1rem;
+	line-height: 1.8rem;
+	text-transform: uppercase;
+	letter-spacing: .1rem;
+	display: block;
+	text-align: left;
+	color: rgba(0, 0, 0, 0.5);
+}
+.popup-modal .link-box {
+	width: 100%;
+	overflow: hidden;
+	background: #000000;
+}
+.popup-modal .link-box a {
+	font-family: "poppins-bold", sans-serif;
+	font-size: 1.2rem;
+	line-height: 6rem;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	cursor: pointer;
+	display: block;
+	text-align: center;
+	float: left;
+	width: 50%;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.popup-modal .link-box a:first-child {
+	border-right: 1px solid rgba(200, 200, 200, 0.1);
+}
+.popup-modal .link-box a:hover {
+	background: #cc005f;
+	border: none;
+}
+@media only screen and (max-width:600px) {
+	.popup-modal {
+		width: auto;
+		margin: 0 20px;
+	}
 }
 
-@media only screen and (max-width: 1300px) {
-    .masonry-wrap {
-        width: 999px;
-    }
-    .masonry .grid-sizer, .masonry__brick {
-        width: 333px;
-    }
+/**
+ * transition effect for modal popup - (_layout.scss)
+ * ------------------------------------------------------------------
+ */
+
+/* overlay at start */
+.mfp-fade.mfp-bg {
+	opacity: 0;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
 }
 
-@media only screen and (max-width: 1099px) {
-    .masonry-wrap {
-        width: 90%;
-        max-width: 800px;
-    }
-    .masonry .grid-sizer, .masonry__brick {
-        width: 50%;
-    }
+/* overlay animate in */
+.mfp-fade.mfp-bg.mfp-ready {
+	opacity: .9;
 }
 
-@media only screen and (max-width: 600px) {
-    .masonry .grid-sizer, .masonry__brick {
-        width: 100%;
-    }
+/* overlay animate out */
+.mfp-fade.mfp-bg.mfp-removing {
+	opacity: 0;
 }
 
-@media only screen and (max-width: 400px) {
-    .masonry-wrap {
-        width: auto;
-    }
+/* content at start */
+.mfp-fade.mfp-wrap .mfp-content {
+	opacity: 0;
+	-webkit-transform: translateY(-100%);
+	-ms-transform: translateY(-100%);
+	transform: translateY(-100%);
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
 }
 
+/* content animate in */
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+	opacity: 1;
+	-webkit-transform: translateY(0);
+	-ms-transform: translateY(0);
+	transform: translateY(0);
+}
 
 
 /* ===================================================================
@@ -3040,6 +3037,7 @@ html.no-csstransitions .home-content__main {
 
 .s-contact {
     background-color: #151515;
+    background-image: linear-gradient(#1d0000, #000000);
     background-image: url("../images/contact-bg.jpg");
     background-repeat: no-repeat;
     background-position: center, center;

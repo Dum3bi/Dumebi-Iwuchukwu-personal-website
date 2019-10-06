@@ -1,4 +1,4 @@
-/* =================================================================== 
+/* ===================================================================
  *
  *  Hola v1.0 Base Stylesheet
  *  10-02-2017
@@ -28,7 +28,7 @@
 
 /* ===================================================================
  * # normalize
- * normalize.css v5.0.0 | MIT License | 
+ * normalize.css v5.0.0 | MIT License |
  * github.com/necolas/normalize.css
  *
  * ------------------------------------------------------------------- */
@@ -270,7 +270,7 @@ body, input, button {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## Media - (_basic.scss)
  * ------------------------------------------------------------------- */
 
@@ -280,7 +280,7 @@ img, video {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## Typography resets - (_basic.scss)
  * ------------------------------------------------------------------- */
 
@@ -322,7 +322,7 @@ li {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## links - (_basic.scss)
  * ------------------------------------------------------------------- */
 
@@ -336,7 +336,7 @@ a img {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## inputs - (_basic.scss)
  * ------------------------------------------------------------------- */
 
@@ -345,12 +345,12 @@ fieldset {
     padding: 0;
 }
 
-input[type="email"], 
-input[type="number"], 
-input[type="search"], 
-input[type="text"], 
-input[type="tel"], 
-input[type="url"], 
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
 input[type="password"], textarea {
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -401,7 +401,7 @@ input[type="password"], textarea {
 }
 
 
-/* column width classes 
+/* column width classes
  * -------------------------------------- */
 
 .col-one {
@@ -453,7 +453,7 @@ input[type="password"], textarea {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## medium size devices - (_grid.scss)
  * ------------------------------------------------------------------- */
 
@@ -504,7 +504,7 @@ input[type="password"], textarea {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## tablets - (_grid.scss)
  * ------------------------------------------------------------------- */
 
@@ -533,7 +533,7 @@ input[type="password"], textarea {
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## mobile devices - (_grid.scss)
  * ------------------------------------------------------------------- */
 
@@ -571,8 +571,8 @@ input[type="password"], textarea {
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## small mobile devices - (_grid.scss) 
+/* -------------------------------------------------------------------
+ * ## small mobile devices - (_grid.scss)
  * ------------------------------------------------------------------- */
 
 
@@ -604,6 +604,180 @@ input[type="password"], textarea {
  * # block grids - (_grid.scss)
  * ------------------------------------------------------------------- */
 
+ /**
+  * ===================================================================
+  * block grids - (_grid.scss)
+  *
+  * -------------------------------------------------------------------
+  */
+ [class*="block-"]:before,
+ [class*="block-"]:after {
+ 	content: "";
+ 	display: table;
+ }
+
+ [class*="block-"]:after {
+ 	clear: both;
+ }
+
+ .block-1-6 .bgrid {
+ 	width: 16.66667%;
+ }
+
+ .block-1-4 .bgrid {
+ 	width: 25%;
+ }
+
+ .block-1-3 .bgrid {
+ 	width: 33.33333%;
+ }
+
+ .block-1-2 .bgrid {
+ 	width: 50%;
+ }
+
+ /**
+  * Clearing for block grid columns. Allow columns with
+  * different heights to align properly.
+  */
+ .block-1-6 .bgrid:nth-child(6n+1),
+ .block-1-4 .bgrid:nth-child(4n+1),
+ .block-1-3 .bgrid:nth-child(3n+1),
+ .block-1-2 .bgrid:nth-child(2n+1) {
+ 	clear: both;
+ }
+
+ /**
+  * small screens - (_grid.scss)
+  * ---------------------------------------------------------------
+  */
+ @media screen and (max-width:1024px) {
+ 	.block-s-1-6 .bgrid {
+ 		width: 16.66667%;
+ 	}
+
+ 	.block-s-1-4 .bgrid {
+ 		width: 25%;
+ 	}
+
+ 	.block-s-1-3 .bgrid {
+ 		width: 33.33333%;
+ 	}
+
+ 	.block-s-1-2 .bgrid {
+ 		width: 50%;
+ 	}
+
+ 	.block-s-full .bgrid {
+ 		width: 100%;
+ 		clear: both;
+ 	}
+
+ 	[class*="block-s-"] .bgrid:nth-child(n) {
+ 		clear: none;
+ 	}
+
+ 	.block-s-1-6 .bgrid:nth-child(6n+1),
+ 	.block-s-1-4 .bgrid:nth-child(4n+1),
+ 	.block-s-1-3 .bgrid:nth-child(3n+1),
+ 	.block-s-1-2 .bgrid:nth-child(2n+1) {
+ 		clear: both;
+ 	}
+
+ }
+
+ /**
+  * tablets - (_grid.scss)
+  * ---------------------------------------------------------------
+  */
+ @media screen and (max-width:768px) {
+ 	.block-tab-1-6 .bgrid {
+ 		width: 16.66667%;
+ 	}
+
+ 	.block-tab-1-4 .bgrid {
+ 		width: 25%;
+ 	}
+
+ 	.block-tab-1-3 .bgrid {
+ 		width: 33.33333%;
+ 	}
+
+ 	.block-tab-1-2 .bgrid {
+ 		width: 50%;
+ 	}
+
+ 	.block-tab-full .bgrid {
+ 		width: 100%;
+ 		clear: both;
+ 	}
+
+ 	[class*="block-tab-"] .bgrid:nth-child(n) {
+ 		clear: none;
+ 	}
+
+ 	.block-tab-1-6 .bgrid:nth-child(6n+1),
+ 	.block-tab-1-4 .bgrid:nth-child(4n+1),
+ 	.block-tab-1-3 .bgrid:nth-child(3n+1),
+ 	.block-tab-1-2 .bgrid:nth-child(2n+1) {
+ 		clear: both;
+ 	}
+
+ }
+
+ /**
+  * large mobile devices - (_grid.scss)
+  * ---------------------------------------------------------------
+  */
+ @media screen and (max-width:600px) {
+ 	.block-mob-1-6 .bgrid {
+ 		width: 16.66667%;
+ 	}
+
+ 	.block-mob-1-4 .bgrid {
+ 		width: 25%;
+ 	}
+
+ 	.block-mob-1-3 .bgrid {
+ 		width: 33.33333%;
+ 	}
+
+ 	.block-mob-1-2 .bgrid {
+ 		width: 50%;
+ 	}
+
+ 	.block-mob-full .bgrid {
+ 		width: 100%;
+ 		clear: both;
+ 	}
+
+ 	[class*="block-mob-"] .bgrid:nth-child(n) {
+ 		clear: none;
+ 	}
+
+ 	.block-mob-1-6 .bgrid:nth-child(6n+1),
+ 	.block-mob-1-4 .bgrid:nth-child(4n+1),
+ 	.block-mob-1-3 .bgrid:nth-child(3n+1),
+ 	.block-mob-1-2 .bgrid:nth-child(2n+1) {
+ 		clear: both;
+ 	}
+
+ }
+
+ /**
+  * stack on small mobile devices - (_grid.scss)
+  * ---------------------------------------------------------------
+  */
+ @media screen and (max-width:400px) {
+ 	.stack .bgrid {
+ 		width: 100% !important;
+ 		float: none !important;
+ 		clear: both !important;
+ 		margin-left: 0;
+ 		margin-right: 0;
+ 	}
+
+ }
 
 /*   Equally-sized columns define at row level
  * ------------------------------------------------------------------- */
@@ -630,26 +804,26 @@ input[type="password"], textarea {
     width: 33.33333%;
 }
 
-.block-1-2 .col-block {
+.block-1-2 .col-block .bgrid{
     width: 50%;
 }
 
 
 /**
- * Clearing for block grid columns. Allow columns with 
+ * Clearing for block grid columns. Allow columns with
  * different heights to align properly.
  */
 
-.block-1-6 .col-block:nth-child(6n+1), 
-.block-1-5 .col-block:nth-child(5n+1), 
-.block-1-4 .col-block:nth-child(4n+1), 
-.block-1-3 .col-block:nth-child(3n+1), 
+.block-1-6 .col-block:nth-child(6n+1),
+.block-1-5 .col-block:nth-child(5n+1),
+.block-1-4 .col-block:nth-child(4n+1),
+.block-1-3 .col-block:nth-child(3n+1),
 .block-1-2 .col-block:nth-child(2n+1) {
     clear: both;
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## medium size devices - (_grid.scss)
  * ------------------------------------------------------------------- */
 
@@ -676,17 +850,17 @@ input[type="password"], textarea {
     [class*="block-m-"] .bgrid:nth-child(n) {
         clear: none;
     }
-    .block-m-1-6 .col-block:nth-child(6n+1), 
-    .block-m-1-5 .col-block:nth-child(5n+1), 
-    .block-m-1-4 .col-block:nth-child(4n+1), 
-    .block-m-1-3 .col-block:nth-child(3n+1), 
+    .block-m-1-6 .col-block:nth-child(6n+1),
+    .block-m-1-5 .col-block:nth-child(5n+1),
+    .block-m-1-4 .col-block:nth-child(4n+1),
+    .block-m-1-3 .col-block:nth-child(3n+1),
     .block-m-1-2 .col-block:nth-child(2n+1) {
         clear: both;
     }
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## tablets - (_grid.scss)
  * ------------------------------------------------------------------- */
 
@@ -713,17 +887,17 @@ input[type="password"], textarea {
     [class*="block-tab-"] .bgrid:nth-child(n) {
         clear: none;
     }
-    .block-tab-1-6 .col-block:nth-child(6n+1), 
-    .block-tab-1-6 .col-block:nth-child(5n+1), 
-    .block-tab-1-4 .col-block:nth-child(4n+1), 
-    .block-tab-1-3 .col-block:nth-child(3n+1), 
+    .block-tab-1-6 .col-block:nth-child(6n+1),
+    .block-tab-1-6 .col-block:nth-child(5n+1),
+    .block-tab-1-4 .col-block:nth-child(4n+1),
+    .block-tab-1-3 .col-block:nth-child(3n+1),
     .block-tab-1-2 .col-block:nth-child(2n+1) {
         clear: both;
     }
 }
 
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
  * ## mobile devices - (_grid.scss)
  * ------------------------------------------------------------------- */
 
@@ -750,18 +924,18 @@ input[type="password"], textarea {
     [class*="block-mob-"] .bgrid:nth-child(n) {
         clear: none;
     }
-    .block-mob-1-6 .col-block:nth-child(6n+1), 
-    .block-mob-1-5 .col-block:nth-child(5n+1), 
-    .block-mob-1-4 .col-block:nth-child(4n+1), 
-    .block-mob-1-3 .col-block:nth-child(3n+1), 
+    .block-mob-1-6 .col-block:nth-child(6n+1),
+    .block-mob-1-5 .col-block:nth-child(5n+1),
+    .block-mob-1-4 .col-block:nth-child(4n+1),
+    .block-mob-1-3 .col-block:nth-child(3n+1),
     .block-mob-1-2 .col-block:nth-child(2n+1) {
         clear: both;
     }
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## small mobile devices - (_grid.scss) 
+/* -------------------------------------------------------------------
+ * ## small mobile devices - (_grid.scss)
  * ------------------------------------------------------------------- */
 
 

@@ -128,6 +128,41 @@
 
     };
 
+    /*---------------------------------------------------- */
+    	/*	Masonry
+    	------------------------------------------------------ */
+    	var ssMasonryFolio = $('#folio-wrapper');
+
+    	ssMasonryFolio.imagesLoaded( function() {
+
+    		ssMasonryFolio.masonry( {
+    		  	itemSelector: '.folio-item',
+    		  	resize: true
+    		});
+
+    	});
+
+
+    /*----------------------------------------------------*/
+    	/*	Modal Popup
+    	------------------------------------------------------*/
+       $('.item-wrap a').magnificPopup({
+
+          type:'inline',
+          fixedContentPos: false,
+          removalDelay: 300,
+          showCloseBtn: false,
+          mainClass: 'mfp-fade'
+
+       });
+
+       $(document).on('click', '.popup-modal-dismiss', function (e) {
+       	e.preventDefault();
+       	$.magnificPopup.close();
+       });
+
+
+
     /* slick slider
      * ------------------------------------------------------ */
     var ssSlickSlider = function() {
@@ -186,6 +221,43 @@
 
     };
 
+
+   /* Stat Counter
+    * ------------------------------------------------------ */
+    var ssStatCount = function() {
+
+        var statSection = $(".s-stats"),
+        stats = $(".stats__count");
+
+        statSection.waypoint({
+
+            handler: function(direction) {
+
+                if (direction === "down") {
+
+                    stats.each(function () {
+                        var $this = $(this);
+
+                        $({ Counter: 0 }).animate({ Counter: $this.text() }, {
+                            duration: 4000,
+                            easing: 'swing',
+                            step: function (curValue) {
+                                $this.text(Math.ceil(curValue));
+                            }
+                        });
+                    });
+
+                }
+
+                // trigger once only
+                this.destroy();
+
+            },
+
+            offset: "90%"
+
+        });
+    };
 
 
    /* Smooth Scrolling
@@ -312,6 +384,7 @@
         ssMobileMenu();
         ssSlickSlider();
         ssWaypoints();
+        ssStatCount();
         ssSmoothScroll();
         ssPlaceholder();
         ssAlertBoxes();
