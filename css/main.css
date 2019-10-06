@@ -2521,10 +2521,9 @@ html.no-csstransitions .home-content__main {
 .popup-modal .link-box {
 	width: 100%;
 	overflow: hidden;
-	background: #000000;
+	background: #200000;
 }
 .popup-modal .link-box a {
-	font-family: "poppins-bold", sans-serif;
 	font-size: 1.2rem;
 	line-height: 6rem;
 	color: #FFFFFF;
