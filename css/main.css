@@ -2521,7 +2521,7 @@ html.no-csstransitions .home-content__main {
 .popup-modal .link-box {
 	width: 100%;
 	overflow: hidden;
-	background: #200000;
+	background: #851212;
 }
 .popup-modal .link-box a {
 	font-size: 1.2rem;
@@ -2544,7 +2544,7 @@ html.no-csstransitions .home-content__main {
 	border-right: 1px solid rgba(200, 200, 200, 0.1);
 }
 .popup-modal .link-box a:hover {
-	background: #f91e15;
+	background: #000000;
 	border: none;
 }
 @media only screen and (max-width:600px) {
