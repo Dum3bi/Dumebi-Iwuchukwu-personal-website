@@ -120,7 +120,7 @@ a:focus {
 
 h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
     font-family: "montserrat-medium", sans-serif;
-    color: #d4d4d4;
+    color: #797979;
     font-style: normal;
     font-weight: normal;
     text-rendering: optimizeLegibility;
@@ -2500,26 +2500,23 @@ html.no-csstransitions .home-content__main {
 	padding: 1.8rem 3.6rem 3rem;
 }
 .popup-modal .description-box h4 {
-	font-family: "poppins-bold", sans-serif;
 	font-size: 1.5rem;
 	line-height: 2.4rem;
 	margin-bottom: .6rem;
 }
 .popup-modal .description-box p {
-	font-family: "poppins-regular", sans-serif;
 	font-size: 1.4rem;
 	line-height: 2.4rem;
 	margin-bottom: 12px;
 }
 .popup-modal .categories {
-	font-family: "poppins-bold", sans-serif;
 	font-size: 1.1rem;
 	line-height: 1.8rem;
 	text-transform: uppercase;
 	letter-spacing: .1rem;
 	display: block;
 	text-align: left;
-	color: rgba(0, 0, 0, 0.5);
+	color: rgba(0, 0,0 , 0.9);
 }
 .popup-modal .link-box {
 	width: 100%;
@@ -2548,7 +2545,7 @@ html.no-csstransitions .home-content__main {
 	border-right: 1px solid rgba(200, 200, 200, 0.1);
 }
 .popup-modal .link-box a:hover {
-	background: #cc005f;
+	background: #f91e15;
 	border: none;
 }
 @media only screen and (max-width:600px) {
@@ -2872,7 +2869,7 @@ html.no-csstransitions .home-content__main {
     margin-top: -9rem;
     padding-top: 0;
     padding-bottom: 9rem;
-    background-color: #FFFFFF;
+    background-color: #080808;
     position: relative;
     z-index: 1;
 }
@@ -2887,7 +2884,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .cta__content span {
-    color: #191A3F;
+    color: #000000;
 }
 
 
@@ -2898,7 +2895,7 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 
 .s-stats {
-    background-color: #f1f1f1;
+    background-color: #0b0b0b;
     text-align: center;
 }
 
@@ -3488,6 +3485,11 @@ article.blog-single .blog-content {
     padding-bottom: 12rem;
 }
 
+.idf > div{
+  align-content: center;
+   width: absolute;
+  overflow: hidden;
+}
 
 /* -------------------------------------------------------------------
  * ## blog page header
