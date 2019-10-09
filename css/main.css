@@ -2449,7 +2449,6 @@ html.no-csstransitions .home-content__main {
 	margin: 0;
 	padding: 0;
 	text-transform: uppercase;
-	font-family: "poppins-regular", sans-serif;
 	font-size: 1.2rem;
 	letter-spacing: .1rem;
 	color: rgba(255, 255, 255, 0.6);
@@ -2524,7 +2523,7 @@ html.no-csstransitions .home-content__main {
 	letter-spacing: .1rem;
 	display: block;
 	text-align: left;
-	color: rgba(0, 0,0 , 0.9);
+	color: rgb(0, 0, 0);
 }
 .popup-modal .link-box {
 	width: 100%;
@@ -2861,7 +2860,7 @@ html.no-csstransitions .home-content__main {
 .s-blog {
     padding-top: 15rem;
     padding-bottom: 9.6rem;
-    background-color: #FFFFFF;
+    background-color: #000000;
     position: relative;
 }
 
@@ -3484,7 +3483,7 @@ footer a:hover, footer a:focus {
  * ------------------------------------------------------------------- */
 
 article.blog-single {
-    background-color: #FFFFFF;
+    background-color: #000000;
 }
 
 article.blog-single .blog-content {
@@ -3743,7 +3742,7 @@ article.blog-single .blog-content {
  * ------------------------------------------------------------------- */
 
 .blog-content-wrap {
-    background-color: #FFFFFF;
+    background-color: #000000;
     padding-top: 4.2rem;
     padding-bottom: 12rem;
 }
