@@ -428,6 +428,11 @@ input[type="password"], textarea {
     width: 50%;
     max-width: 600px;
 }
+@media (max-width: 680px) {
+  .col-six {
+    padding-right: 5px;
+    padding-left: 5px;}
+}
 
 .col-seven {
     width: 58.33333%;
