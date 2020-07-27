@@ -1775,7 +1775,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     opacity: .8;
     background: -moz-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
     background: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
-    background: linear-gradient(to bottom, transparent 0%, rgba(255, 255, 255, 0.9) 100%);
+    background: linear-gradient(to bottom, transparent 0%, rgba(255, 255, 255, 0.8) 100%);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff00', endColorstr='#ccffffff', GradientType=0);
 }
 
@@ -1841,6 +1841,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     display: block;
     width: 210px;
     border-color: #000000;
+    background: rgba(255, 255, 255, 0.5) !important;
     color: #000000;
     margin: 1.5rem 0 0 0;
     letter-spacing: .25rem;
@@ -3404,8 +3405,8 @@ footer a:hover, footer a:focus {
     width: 60px;
     line-height: 60px;
     text-align: center;
-    background: black;
-    color: rgba(216, 210, 233, 0.8);
+    background: rgba(0,0,0, 0.8);
+    color: white;
     text-align: center;
     text-transform: uppercase;
     -webkit-transition: all 0.3s ease-in-out;
