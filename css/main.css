@@ -1,7 +1,7 @@
 /* ===================================================================
  *
- *  Hola v1.0 Main Stylesheet
- *  10-02-2017
+ *  Dumebi Iwuchukwu's website Main Stylesheet
+ *
  *  ------------------------------------------------------------------
  *
  *  TOC:
@@ -3367,6 +3367,7 @@ footer a:hover, footer a:focus {
 .footer-bottom {
     margin-top: 7.2rem;
     text-align: center;
+    color: rgb(0, 0, 0);
 }
 
 .footer-bottom .copyright span {
@@ -3377,7 +3378,7 @@ footer a:hover, footer a:focus {
     content: "|";
     display: inline-block;
     padding: 0 1rem 0 1.2rem;
-    color: rgba(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 .footer-bottom .copyright span:last-child::after {
@@ -3488,13 +3489,13 @@ article.blog-single .blog-content {
  * ------------------------------------------------------------------- */
 
 .page-header {
-    background-color: #030303;
+    background-color: #ffffff;
     background-repeat: no-repeat;
     background-position: center, center;
     padding-top: 20.4rem;
     padding-bottom: 7.2rem;
     position: relative;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(0, 0, 0, 0.5);
     min-height: 50.4rem;
 }
 
@@ -3513,7 +3514,7 @@ article.blog-single .blog-content {
     width: 100%;
     height: 100%;
     opacity: .75;
-    background-color: #030303;
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 .page-header::after {
@@ -3525,11 +3526,11 @@ article.blog-single .blog-content {
     width: 100%;
     height: 100%;
     opacity: .5;
-    background: -moz-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.65) 100%);
+    background: -moz-linear-gradient(top, transparent 0%, rgba(255, 255, 255, 0.65) 100%);
     /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.65) 100%);
+    background: -webkit-linear-gradient(top, transparent 0%, rgba(255, 255, 255, 0.65) 100%);
     /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.65) 100%);
+    background: linear-gradient(to bottom, transparent 0%, rgba(255, 255, 255, 0.65) 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff00', endColorstr='#a6ffffff', GradientType=0);
     /* IE6-9 */
