@@ -850,7 +850,7 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-    background: #030303;
+    background: #ffffff;
     border-color: #030303;
     color: #000000;
 }
@@ -865,7 +865,7 @@ button.btn--primary:focus,
 input[type="submit"].btn--primary:focus,
 input[type="reset"].btn--primary:focus,
 input[type="button"].btn--primary:focus {
-    background: #e91d1d;
+    background: #9849b1;
     border-color: #9849b1;
 }
 
