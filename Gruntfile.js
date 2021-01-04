@@ -9,7 +9,7 @@ module.exports = function(grunt) {
         concat: {
           dist: {
         src: [
-            'js/*.js', // All JS in the js folder
+            'js/lazysizes.min.js', 'js/lazysizes.min.js', 'js/lazysizes.min.js' // All JS in the js folder
         ],
         dest: 'js/build/production.js',
     }
