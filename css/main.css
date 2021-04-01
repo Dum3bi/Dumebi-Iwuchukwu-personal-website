@@ -4230,7 +4230,7 @@ article.blog-single .blog-content {
     p {
       margin: 5px 0;
       padding: 0;
-      text-align: center;
+      text-align: left;
       font-style: italic;
     }
     .card {
