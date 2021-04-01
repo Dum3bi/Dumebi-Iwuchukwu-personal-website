@@ -31,6 +31,10 @@ module.exports = function(grunt) {
         }]
     }
 },
+jshint: {
+           all: ['Gruntfile.js']
+       },
+
 watch: {
     scripts: {
         files: ['js/*.js'],
