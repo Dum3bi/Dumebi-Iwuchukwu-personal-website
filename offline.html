@@ -55,7 +55,6 @@
     ================================================== -->
     <script src="js/modernizr.js"></script>
     <script src="js/pace.min.js"></script>
-
     <!-- PWA
     ================================================== -->
     <link rel="manifest" href="manifest.json">
@@ -113,7 +112,7 @@
               </h1>
 
              <div class="home-content__buttons">
-                 <a href="#works" class="smoothscroll btn btn--stroke">
+                 <a href="#portfolio" class="smoothscroll btn btn--stroke">
                      Latest Projects
                  </a>
                  <a href="#about" class="smoothscroll btn btn--stroke">
@@ -153,39 +152,7 @@
     </section> <!-- end s-home -->
 
 
-    <!-- about
-    ================================================== -->
-    <section id="about" class="s-about target-section">
 
-        <div class="row narrow section-intro has-bottom-sep">
-            <div class="col-full text-center">
-                <h3>About</h3>
-                <h1>Dumebi Iwuchukwu</h1>
-                <p class="lead">Art Director & Product Designer</p>
-            </div>
-        </div>
-
-<div class="container about-content">
-
-  <div class="col-six tab-full left">
-    <img src="images\about.jpg" alt="" />
-  </div>
-
-<div class="col-six tab-full right">
-
-            <div>
-              <h3>Dumebi's passion for experience design can be traced back to his formal training as a medical radiographer, where he spent significant time working on patient diagnosis and care.</h3>
-
-               <p>As a designer, he specializes in art direction, brand identity, and product design.</p>
-
-                <p>He's had the privilege of creating enabling experiences for people with brands like Budweiser, Nivea, Sprite, Schweppes, Sterling Bank, Haptics, Globacom and more.</p>
-            </div>
-
-</div>
-
-
-
-    </section> <!-- end about -->
 
 
     <!-- works
@@ -198,7 +165,7 @@
                 <h3>Portfolio</h3>
                 <h1>My Latest Projects.</h1>
 
-                <p class="lead">“You might see me with my hoody up, I ain't leaving 'til I finish.” <br>
+                <p style="text-align:center;" class="lead">“You might see me with my hoody up, I ain't leaving 'til I finish.” <br>
                                     -NF</p>
             </div>
         </div>
@@ -208,6 +175,22 @@
 
       <!-- portfolio-wrapper -->
          <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+
+           <div class="bgrid folio-item">
+              <div class="item-wrap">
+               <img src="images/portfolio/gallery/OneBank.jpg" alt="OneBank Movie poster design" class="lazyload">
+                 <a href="#modal-05" class="overlay">
+                    <div class="folio-item-table">
+                     <div class="folio-item-cell">
+                       <h3 class="folio-title">OneBank</h3>
+                     <span class="folio-types">
+                         Brand & Marketing Design
+                     </span>
+                  </div>
+                    </div>
+                 </a>
+              </div>
+           </div> <!-- /folio-item -->
 
            <div class="bgrid folio-item">
               <div class="item-wrap">
@@ -262,8 +245,8 @@
 
              <div class="bgrid folio-item">
                 <div class="item-wrap">
-                 <img src="images\portfolio\gallery\Schweppes.jpg"alt="Dangote Pasta Pack ad" class="lazyload">
-                   <a href="#modal-03" class="overlay">
+                 <img src="images\portfolio\gallery\Schweppes.jpg"alt="hand holding glass of Schweppes" class="lazyload">
+                   <a href="#modal-02" class="overlay">
                       <div class="folio-item-table">
                        <div class="folio-item-cell">
                          <h3 class="folio-title">Schweppes</h3>
@@ -275,25 +258,6 @@
                    </a>
                 </div>
              </div> <!-- /folio-item -->
-
-          <div class="bgrid folio-item">
-               <div class="item-wrap">
-                <img src="images\portfolio\gallery\cap-front.jpg" alt="dentiti baseball cap" class="lazyload">
-                  <a href="#modal-01" class="overlay">
-                     <div class="folio-item-table">
-                      <div class="folio-item-cell">
-                       <h3 class="folio-title">D3ntiti</h3>
-                       <span class="folio-types">
-                          Brand Identity and Marketing Design
-                       </span>
-                   </div>
-                     </div>
-                  </a>
-               </div>
-            </div> <!-- /folio-item -->
-
-
-
 
             <div class="bgrid folio-item">
                <div class="item-wrap">
@@ -316,22 +280,42 @@
             <div id="modal-01" class="popup-modal slider mfp-hide">
 
             <div class="media">
-              <img src="images\portfolio\modals\cap-front-m.jpg" alt="" />
+              <img src="images/portfolio/modals/Skatedeck-m.png" alt="" />
             </div>
 
            <div class="description-box">
-              <h4>D3ntiti</h4>
-              <p>A case study of the Brand Identity & Marketing strategy my team created for the Dentiti clothing brand.</p>
+              <h3>Skatedeck challenge</h3>
+              <p>A cross section designs I did combining my love for typography, grids and pop culture. Hope you enjoy these expressions...</p>
 
               <div class="categories">Brand Identity, Apparel and Marketing Design</div>
            </div>
 
              <div class="link-box">
-                <a href="#" class="popup-modal-dismiss">Details</a>
+                <a href="#" class="popup-modal-dismiss">See Details</a>
               <a href="#" class="popup-modal-dismiss">Close</a>
              </div>
 
-         </div> <!-- /modal-01 -->
+         </div> <!-- /modal-02 -->
+
+         <div id="modal-02" class="popup-modal slider mfp-hide">
+
+         <div class="media">
+           <img src="images/portfolio/modals/schweppes-m.png" alt="" />
+         </div>
+
+         <div class="description-box">
+           <h3>Schweppes</h3>
+           <p>These are brand, product and marketing designs done for Schweppes Nigeria. These included graphics and animations for Social Media, Print, Advertising and Internal Communications.</p>
+
+           <div class="categories">Brand Identity, Apparel and Marketing Design</div>
+         </div>
+
+          <div class="link-box">
+             <a href="#" class="popup-modal-dismiss">See Details</a>
+           <a href="#" class="popup-modal-dismiss">Close</a>
+          </div>
+
+        </div> <!-- /modal-02 -->
 
 
          <div id="modal-03" class="popup-modal slider mfp-hide">
@@ -341,14 +325,14 @@
             </div>
 
            <div class="description-box">
-              <h4>Dangote Flour</h4>
+              <h3>Dangote Flour</h3>
               <p>Review of the designs i created as the art director on the team creating social media content for Dangote Flour's Social Media Account.</p>
 
               <div class="categories">Art Direction</div>
            </div>
 
              <div class="link-box">
-                <a href="#" class="popup-modal-dismiss">Details</a>
+                <a href="#" class="popup-modal-dismiss">See Details</a>
               <a href="#" class="popup-modal-dismiss">Close</a>
              </div>
 
@@ -361,18 +345,36 @@
             </div>
 
            <div class="description-box">
-              <h4>Budweiser</h4>
+              <h3>Budweiser</h3>
               <p>These are brand, product and marketing designs done for Budweiser Nigeria. These included graphics and animations for Social Media, Print, Advertising and Internal Communications.</p>
 
               <div class="categories">Brand, Product & Marketing Design</div>
            </div>
 
              <div class="link-box">
-                <a href="#">Details</a>
+                <a href="#">See Details</a>
               <a href="#" class="popup-modal-dismiss">Close</a>
              </div>
 
          </div> <!-- /modal-04 -->
+
+         <div id="modal-05" class="popup-modal slider mfp-hide">
+
+            <div class="media">
+              <img src="images/portfolio/modals/OneBank-m.png" alt="OneBank_Flatlay" />
+            </div>
+
+           <div class="description-box">
+              <h3>OneBank</h3>
+              <p>These are brand, product and marketing designs done for OneBank. These included graphics and animations for Social Media, Print, Advertising and Internal Communications.</p>
+
+              <div class="categories">Brand, Product & Marketing Design</div>
+           </div>
+
+             <div class="link-box">
+                <a href="#">See Details</a>
+              <a href="#" class="popup-modal-dismiss">Close</a>
+             </div>
 
          </div> <!-- /modal-05 -->
 
@@ -383,14 +385,14 @@
             </div>
 
            <div class="description-box">
-              <h4>Nivea</h4>
+              <h3>Nivea</h3>
               <p>A collection of Social Media designs and animations done for NIVEA MEN Nigeria's Facebook page.</p>
 
               <div class="categories">Social Media Design</div>
            </div>
 
              <div class="link-box">
-                <a href="#" class="popup-modal-dismiss">Details</a>
+                <a href="#" class="popup-modal-dismiss">See Details</a>
               <a href="#" class="popup-modal-dismiss">Close</a>
              </div>
 
@@ -408,7 +410,39 @@
 
     </section>
 
+    <!-- about
+    ================================================== -->
+    <section id="about" class="s-about target-section">
 
+        <div class="row narrow section-intro has-bottom-sep">
+            <div class="col-full text-center">
+                <h3>About</h3>
+                <h1>Dumebi Iwuchukwu</h1>
+                <p style="text-align:center;" class="lead">Art Director & Product Designer</p>
+            </div>
+        </div>
+
+    <div class="container about-content">
+
+    <div class="col-six tab-full left">
+    <img src="images\about.jpg" alt="" />
+    </div>
+
+    <div class="col-six tab-full right">
+
+            <div>
+              <h3>Dumebi's passion for experience design can be traced back to his formal training as a medical radiographer, where he spent significant time working on patient diagnosis and care.</h3><br>
+
+               <p>As a designer, he specializes in art direction and product design.</p> <br>
+
+                <p>He's had the privilege of creating enabling experiences for people with brands like Budweiser, Nivea, Sprite, Schweppes, Sterling Bank, Haptics, Globacom and more.</p>
+            </div>
+
+    </div>
+
+
+
+    </section> <!-- end about -->
 
 
 
@@ -421,18 +455,18 @@
                 <h3>Let's work together</h3>
                 <h1>Contact me.</h1>
 
-                <p>I like to listen.</p>
+                <p style="text-align:center;" class="lead">I like to listen.</p>
             </div>
         </div>
         <div class="row contact__main">
-            <div class="col-eight tab-full contact__form">
-              <h4 class="h06">Email</h4>
-              <p><a href="mailto:me@dum3bi.com">me@dum3bi.com</a></p>
-            </div>
-            <div class="col-four tab-full contact__infos">
-              <h4 class="h06">Phone</h4>
-              <p><a href="tel:234 9065 71 2102">234-9065-71-2102</a></p>
-            </div>
+          <div class="col-eight tab-full contact__form">
+            <h4 class="h06">Send me an email</h4>
+            <p><a href="mailto:me@dum3bi.com?bcc=dum3bi@gmail.com&subject=Nice%20meeting%20you%20Dumebi&body=Hi%20Dumebi%2C%0D%0A%0D%0A" target="_blank">me@dum3bi.com</a></p>
+          </div>
+          <div class="col-four tab-full contact__infos">
+            <h4 class="h06">Call me</h4>
+            <p><a href="tel:234 9065 71 2102">234-9065-71-2102</a></p>
+          </div>
 
         </div>
 
@@ -552,10 +586,10 @@
 
       gtag('config', 'UA-133301768-1');
     </script>
-    <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/lazysizes.min.js" async></script>
+    <script src="js/lazysizes.min.js"></script>
 
 
 
