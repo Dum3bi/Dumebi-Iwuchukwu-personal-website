@@ -10,7 +10,7 @@ This site is my personal home on the web. I showcase stuff I've designed, I plan
 It started as my personal experiment to learn Frontend Development in 2018 using HTML, CSS and JavaScript and since then I've played with JQuery, Grunt and a few other frameworks/tools.
 
 
-It lives here: <a href="https://dum3bi.com/" target="_blank" rel="noopener">dum3bi.com</a> and is hosted on <a href="https://netlify.com/" target="_blank" rel="noopener">Netlify</a>
+It lives here: <a href="https://dum3bi.com/" target="_blank">dum3bi.com</a> and is hosted on <a href="https://netlify.com/" target="_blank">Netlify</a>
 
 ## Licensing
 
