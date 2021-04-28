@@ -7,10 +7,10 @@ dum3bi.com [![Netlify Status](https://api.netlify.com/api/v1/badges/c4e926e1-aee
 
 This site is my personal home on the web. I showcase stuff I've designed, I plan to start writing about stuff soon. It's 100% personal in nature and does not necessarily reflect the views of my employer. It's just where I share things I've built, written, or done.
 
-It started as my personal experiment to learn Frontend Development since 2018 using HTML, CSS and JavaScript and since then I've played with JQuery, Grunt and a few other frameworks/tools.
+It started as my personal experiment to learn Frontend Development in 2018 using HTML, CSS and JavaScript and since then I've played with JQuery, Grunt and a few other frameworks/tools.
 
 
-It lives here: [dum3bi.com](http://dum3bi.com)
+It lives here: [dum3bi.com](http://dum3bi.com){target="_blank"} and is hosted on [Netlify](http://netlify.com){target="_blank"}
 
 ## Licensing
 
