@@ -1834,7 +1834,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     position: absolute;
     right: 0;
     bottom: 2.1rem;
-    text-align: center;
+    
 }
 
 .home-content__buttons .btn {
