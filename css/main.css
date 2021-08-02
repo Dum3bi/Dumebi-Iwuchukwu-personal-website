@@ -1834,7 +1834,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     position: absolute;
     right: 0;
     bottom: 2.1rem;
-    
+
 }
 
 .home-content__buttons .btn {
@@ -3608,8 +3608,8 @@ article.blog-single .blog-content {
     font-family: "montserrat-bold", serif;
     font-size: 6.6rem;
     line-height: 1.227;
-    margin-top: 0;
-    margin-bottom: 3.6rem;
+    margin-top: 100px;
+    margin-bottom: 50px;
 }
 
 .page-header__title a {
@@ -4224,7 +4224,7 @@ article.blog-single .blog-content {
     }
     img {
       width: 100%;
-      border-radius: 5px;
+      border-radius: 10px;
       transition: all .25s ease-in-out;
     }
     p {
