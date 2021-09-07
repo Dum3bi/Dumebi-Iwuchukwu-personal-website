@@ -14,6 +14,12 @@
 <url>
 <loc>https://www.dum3bi.com/thank-you</loc>
 <lastmod>2019-01-14</lastmod>
-<changefreq>Monthly</changefreq>
+<changefreq>monthly</changefreq>
+</url>
+<url>
+<loc>https://www.dum3bi.com/about</loc>
+<lastmod>2021-09-07</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
 </url>
 </urlset>
