@@ -8,6 +8,5 @@ Disallow:
 
 Disallow: /cgi-bin/
 Disallow: /offline
-Disallow: /thank-you
 Disallow: /styles
 Sitemap: https://www.dum3bi.com/sitemap.xml
