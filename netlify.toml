@@ -14,9 +14,3 @@
   public,
 	must-revalidate'''
   Content-Language= "en"
-
-  [[redirects]]
-    from = "/*"
-    to = "/404.html"
-    status = 404
-    force = false
