@@ -865,8 +865,8 @@ button.btn--primary:focus,
 input[type="submit"].btn--primary:focus,
 input[type="reset"].btn--primary:focus,
 input[type="button"].btn--primary:focus {
-    background: #9849b1;
-    border-color: #9849b1;
+    background: #FF0000;
+    border-color: #FF0000;
 }
 
 
@@ -895,8 +895,8 @@ input[type="button"].btn--primary:focus {
 }
 
 .btn--stroke:hover, button.btn--stroke:hover {
-    border: 0.3rem solid #9849b1;
-    color: #9849b1;
+    border: 0.3rem solid #FF0000;
+    color: #FF0000;
 }
 
 .btn--pill, button.btn--pill {
@@ -2516,7 +2516,7 @@ html.no-csstransitions .home-content__main {
 .popup-modal .link-box {
 	width: 100%;
 	overflow: hidden;
-	background: #9849b1;
+	background: #FF0000;
 }
 .popup-modal .link-box a {
 	font-size: 1.2rem;
@@ -3296,7 +3296,7 @@ footer {
 }
 
 footer a, footer a:visited {
-    color: #9849b1;
+    color: #FF0000;
 }
 
 footer a:hover, footer a:focus {
