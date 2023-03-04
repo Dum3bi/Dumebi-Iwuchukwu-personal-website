@@ -2093,6 +2093,16 @@ html.no-csstransitions .home-content__main {
  * home
  * ------------------------------------------------------------------- */
 
+@media only screen and (max-width: 1920px) {
+    .home-content h1 {
+        font-size: 5.2rem;
+    }
+    .home-content__main {
+        max-width: 1000px;
+    }
+}
+
+
 @media only screen and (max-width: 1500px) {
     .home-content h1 {
         font-size: 5.2rem;
