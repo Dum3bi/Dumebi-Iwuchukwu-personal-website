@@ -5,7 +5,7 @@ dum3bi.com [![Netlify Status](https://api.netlify.com/api/v1/badges/c4e926e1-aee
 
 ## About the Site
 
-This site is my personal home on the web. I showcase stuff I've designed, I plan to start writing posts about stuff soon. It's 100% personal in nature and does not reflect the views of my employer or Brands I've worked with. It's just where I share things I've built, written, or done.
+This site is my personal home on the web. It showcases brands and products I've designed, I plan to start writing blog posts on it soon. It's 100% personal in nature and does not reflect the views of my employer or brands I've worked with. It's just where I share things I've built, written, or done.
 
 It started as my personal experiment to learn Frontend Development in 2018 using HTML, CSS and JavaScript and since then I've played with JQuery, Grunt and a few other frameworks/tools.
 
