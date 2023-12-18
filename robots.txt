@@ -9,4 +9,5 @@ Disallow:
 Disallow: /cgi-bin/
 Disallow: /offline
 Disallow: /styles
+Disallow: /blog
 Sitemap: https://www.dum3bi.com/sitemap.xml
