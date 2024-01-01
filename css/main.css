@@ -127,13 +127,13 @@ h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
 }
 
 h1, .h01, h2, .h02, h3, .h03, h4, .h04 {
-    margin-top: 6rem;
+    margin-top: 1.8rem;
     margin-bottom: 1.8rem;
 }
 
 @media only screen and (max-width: 600px) {
     h1, .h01, h2, .h02, h3, .h03, h4, .h04 {
-        margin-top: 5.1rem;
+        margin-top: 1.8rem;
     }
 }
 
@@ -730,6 +730,14 @@ input[type="password"]:focus,
 textarea:focus, select:focus {
     color: #ffffff;
     border-bottom: 2px solid black;
+}
+
+.home-bio h2{
+margin-top: 1.8rem;
+display: inline-flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
 }
 
 label, legend {
